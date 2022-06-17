@@ -1,0 +1,75 @@
+.header{
+	position: fixed;
+	background-color: $white;
+	height: 120px;
+	&-wrapper{
+		padding: 30px 40px 30px 40px;
+	}
+	&-logo{
+		&-title{
+			color: $dark-lightness;
+		}
+		&-text{
+			color: $black;
+		}
+	}
+}
+.nav{
+	&-menu{
+		&-item{
+			&-link{
+				color: $dark-lightness;
+				&:hover{
+					color: $dark-lightness;
+				}
+			}
+		}
+	}
+}
+.nav-menu-item-link.active{
+	color: $black;
+}
+.slider-pet{
+	width: 270px;
+}
+.container{
+	padding: 0;
+}
+.slider-pets{
+	&-title{
+		padding-top: 200px
+	}
+	&-wrapper{
+		display: flex;
+		gap: 30px 40px;
+		flex-wrap: wrap;
+	}
+	&-pagination{
+		gap: 20px;
+		display: flex;
+		justify-content: center;
+		padding: 60px 0px 100px 0px;
+		&-btn{
+			border: 2px solid $pink;
+			border-radius: 100px;
+			width: 52px;
+			height: 52px;
+			background-color: inherit;
+			&:hover{
+					background-color: $pink;
+				}
+			&-disabled{
+				border: 2px solid $gray;
+				background-color: inherit;
+				&:hover{
+					background-color: gray;
+					opacity: 0.5;
+				}
+			}
+			&-number{
+				background-color: $pink;
+			}
+		}
+	}
+}
+

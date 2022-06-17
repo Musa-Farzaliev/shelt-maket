@@ -1,0 +1,35 @@
+$georgia: 'Georgia', serif;
+$arial: 'Arial', sans-serif;
+$pink: #F1CDB3;
+$white: #FFFFFF;
+$dark-gray: #F6F6F6;
+$white-light: #FAFAFA;
+$gray: #CDCDCD;
+$black: #292929;
+$dark-lightness: #545454;
+$dark-light: #4c4c4c;
+$gray-dark: #B2B2B2;
+$letter-space: 0.06em;
+
+@mixin horizon-center {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+@mixin flex {
+	display: flex;
+}
+
+$break-sm: 767px;
+$break-md: 1280px;
+
+@mixin sm-block() {
+	@media screen and (max-width: $break-sm){
+		@content;
+	}
+}
+@mixin md-block() {
+	@media screen and (max-width: $break-md){
+		@content;
+	}
+}
