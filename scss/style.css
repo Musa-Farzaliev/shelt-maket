@@ -157,7 +157,7 @@ button {
 
 .hero {
   position: relative;
-  background-image: url(/assets/img/start-screen-gradient-background.jpg);
+  background-image: url(../assets/img/start-screen-gradient-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 908px;
